@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="FIFA_Table">
+    <title>simpleFormControls</title>
+    <link rel="icon" href="../images/123.jpg" type="image/x-icon">
+</head>
+<body>
+    <form action="registration.py" method="get">
+        <h1>Регистрация</h1>
+        <fieldset>
+            <legend>Лични данни</legend>
+            <div>Име: <input type="text" name="userName" placeholder="малко име, на латиница"></div>
+            <div>Име: <input type="text" name="userSurName" placeholder="фамилия, на латиница"></div>
+            <div>Пол:
+              <label>Мъж: <input type="radio" name="gender" value="m"></label>
+              <label> Жена: <input type="radio" name="gender" value="f"></label>
+            </div>
+        </fieldset>
+        <legend>Коментар:</legend>
+        <textarea name="comment" id="" cols="25" rows="2" placeholder="напишете ни нещо"></textarea>
+        <div><button type="submit">Изпрати</button></div>
+    </form>
+</body>
+</html>
